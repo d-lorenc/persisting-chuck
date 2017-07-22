@@ -1,0 +1,6 @@
+applications:
+  - name: persisting-chuck
+    path: build/libs/persisting-chuck.jar
+    buildpack: java_buildpack
+    services:
+      - jokes-db
